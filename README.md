@@ -26,3 +26,49 @@ Display the original, lower contrast, and higher contrast images.
 
 ### Step 5:
 Split the image (boy.jpg) into B, G, R components and display the channels
+
+Program Developed By:
+Name: S. Devi
+
+Register Number: 212225100008
+
+## program
+### Step1:
+Load an image from your local directory and display it.
+### step2:
+- Draw a line from the top-left to the bottom-right of the image.
+
+- Draw a circle at the center of the image. 
+
+- Draw a rectangle around a specific region of interest in the image. 
+
+- Add the text "OpenCV Drawing" at the top-left corner of the image.
+
+- Draw a line from the top-left to the bottom-right of the image
+### Step3:
+- Convert the image from RGB to HSV and display it.
+    
+- Convert the image from RGB to GRAY and display it. 
+
+- Convert the image from RGB to YCrCb and display it. 
+    
+- Convert the HSV image back to RGB and display it.
+  
+### Step4:
+- Access and print the value of the pixel at coordinates (100, 100). 
+
+- Modify the color of the pixel at (200, 200) to white.
+  
+### Step5:
+- Resize the original image to half its size and display it.
+  
+### Step6:
+- Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area starting at (50, 50)) and display it.
+
+### Step7:
+- Flip the original image horizontally and display it. 
+
+- Flip the original image vertically and display it.
+
+### Step8:
+- Save the final modified image to your local directory.
