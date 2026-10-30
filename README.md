@@ -34,7 +34,7 @@ Register Number: 212225100008
 
 ## program
 ### Step1:
-Load an image from your local directory and display it.
+- Load an image from your local directory and display it.
 ### step2:
 - Draw a line from the top-left to the bottom-right of the image.
 
