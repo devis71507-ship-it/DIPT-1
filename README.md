@@ -159,6 +159,8 @@ plt.axis("on")
 ```
 (-0.5, 412.5, 530.5, -0.5)
 
+<img width="261" height="348" alt="image" src="https://github.com/user-attachments/assets/6b4a07e2-3ac3-4776-a7ba-d7e5a4c88322" />
+
 ```
 # Convert RGB to HSV
 image_hsv = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2HSV)
@@ -169,6 +171,8 @@ plt.axis("off")
 ```
 
 (-0.5, 412.5, 530.5, -0.5)
+
+<img width="260" height="322" alt="image" src="https://github.com/user-attachments/assets/f2d20de5-31e7-4ea7-ab61-9709209230b5" />
 
 ```
 # Convert RGB to GRAY
@@ -181,6 +185,8 @@ plt.axis("off")
 ```
 (-0.5, 412.5, 530.5, -0.5)
 
+<img width="251" height="327" alt="image" src="https://github.com/user-attachments/assets/69197099-cb13-4880-8ea4-3cef2d02c7da" />
+
 ```
 # Convert RGB to YCrCb
 image_ycrcb = cv2.cvtColor(image_rgb, cv2.COLOR_RGB2YCrCb)
@@ -192,6 +198,8 @@ plt.axis("off")
 
 (-0.5, 412.5, 530.5, -0.5)
 
+<img width="233" height="312" alt="image" src="https://github.com/user-attachments/assets/9b3fdab8-464f-4d6e-94e4-248f6374f84d" />
+
 ```
 # Convert HSV back to RGB
 image_hsv_to_rgb = cv2.cvtColor(image_hsv, cv2.COLOR_HSV2RGB)
@@ -200,6 +208,8 @@ plt.title("HSV to RGB Image")
 plt.axis("off")
 ```
 (-0.5, 412.5, 530.5, -0.5)
+
+<img width="258" height="320" alt="image" src="https://github.com/user-attachments/assets/8de15c94-bbc4-4a03-947c-64ea9c0c036c" />
 
 ### Step4:
 - Access and print the value of the pixel at coordinates (100, 100). 
