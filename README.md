@@ -227,6 +227,7 @@ plt.title("Image with 300x300 White Block")
 plt.axis("off")
 plt.show()
 ```
+<img width="280" height="325" alt="image" src="https://github.com/user-attachments/assets/ae1bdf25-5250-4b1f-9db4-37153c94b23c" />
 
 ### Step5:
 - Resize the original image to half its size and display it.
@@ -255,6 +256,9 @@ plt.title("Resized Image (Half Size)")
 plt.axis("off")
 plt.show()
 ```
+
+<img width="410" height="315" alt="image" src="https://github.com/user-attachments/assets/644c4529-a51a-44db-8aef-45070f8792b3" />
+
 ### Step6:
 - Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area starting at (50, 50)) and display it.
 
@@ -277,6 +281,9 @@ plt.title("Cropped Region of Interest (ROI)")
 plt.axis("off")
 plt.show()
 ```
+
+<img width="313" height="322" alt="image" src="https://github.com/user-attachments/assets/6997aa55-1c95-4a79-8345-1e7f52493b0c" />
+
 ### Step7:
 - Flip the original image horizontally and display it. 
 
