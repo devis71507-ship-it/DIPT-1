@@ -49,6 +49,9 @@ plt.title("Original Image")
 plt.axis('off')  # Removes axis ticks and labels
 plt.show()
 ```
+
+<img width="242" height="325" alt="image" src="https://github.com/user-attachments/assets/60aacf81-7a7b-44c0-acb2-4fdb8977421e" />
+
 ### step2:
 - Draw a line from the top-left to the bottom-right of the image.
 
@@ -70,7 +73,9 @@ plt.axis('on')
 plt.show()
 
 ```
-- Draw a circle at the center of the image. 
+<img width="287" height="337" alt="image" src="https://github.com/user-attachments/assets/1b6cf73c-5707-4a5d-a0bf-69616a67fac3" />
+
+ Draw a circle at the center of the image. 
 
 ```
 # Load the image
@@ -87,9 +92,11 @@ img_rgb.shape
 circle_img = cv2.circle(img_rgb,(400,300),250,(0,0,0),10) # cv2.circle(image, center, radius, color, thickness)
 plt.imshow(circle_img, cmap='viridis')  
 plt.title("Image with Circle")
-plt.axis('off')  
+plt.axis('on')  
 plt.show()
 ```
+<img width="270" height="336" alt="image" src="https://github.com/user-attachments/assets/989b5d1a-cd62-4a6c-8c05-6172ce2207dc" />
+
 - Draw a rectangle around a specific region of interest in the image. 
 
 ```
@@ -101,7 +108,7 @@ img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 img.shape
 ```
 
-(1000, 750, 3)
+(531, 413, 3)
 
 ```
 # Draw a rectangle around the Whole image
@@ -111,20 +118,24 @@ plt.title("Image with Rectangle")
 plt.axis('off')  
 plt.show()
 ```
+<img width="277" height="345" alt="image" src="https://github.com/user-attachments/assets/144a84f3-0468-43ee-8967-7b7ae7a07782" />
+
 - Add the text "DEVI" at the top-left corner of the image.
 ```
 # Load the image
-image = cv2.imread('NEHA IMAGE.jpeg') 
+
+image = cv2.imread(r"C:\Users\sdhan\Downloads\WhatsApp Image 2026-10-17 at 3.09.40 PM.jpeg") 
 
 # Convert BGR (OpenCV's default) to RGB (Matplotlib's expected color order)
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 # Add text to the image
-text_img = cv2.putText(img_rgb, "212225100030", (300, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 10)  ## cv2.putText(image, text, position, font, font_scale, color, thickness)
+text_img = cv2.putText(img_rgb, "DEVI", (300, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 10)  ## cv2.putText(image, text, position, font, font_scale, color, thickness)
 plt.imshow(text_img, cmap='viridis')  
 plt.title("Image with Text")
 plt.axis('off')  
 plt.show()
 ```
+<img width="238" height="335" alt="image" src="https://github.com/user-attachments/assets/aebfcdb4-fb6f-4033-8056-3f0adb04de16" />
 
 
 
