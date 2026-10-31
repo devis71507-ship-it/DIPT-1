@@ -276,6 +276,8 @@ plt.axis("off")
 
 (-0.5, 412.5, 530.5, -0.5)
 
+<img width="222" height="310" alt="image" src="https://github.com/user-attachments/assets/ec34d637-70fd-4640-8dca-a55bc66e0922" />
+
 ```
 # Flip the image vertically (up-down)
 flipped_vertically = cv2.flip(image, 0)
@@ -289,7 +291,7 @@ plt.axis("off")
 
 (-0.5, 412.5, 530.5, -0.5)
 
-### Step8:
-- Save the final modified image to your local directory.
+<img width="262" height="317" alt="image" src="https://github.com/user-attachments/assets/e42a854f-e553-41eb-9643-c77b440f674b" />
+
 ### Step8:
 - Save the final modified image to your local directory.
